@@ -17,9 +17,6 @@ body {
     width: 190px;
 }
 
-/* nav {
-    background-color: #f15723;
-} */
 
 .active-link {
     color: #da1818 !important;
@@ -84,26 +81,13 @@ justify-content: space-around;
     font-size: 30px;
   }
 
-.drawing {
-    max-width: 22%;
-}
 
 .about-us{
     margin-top: 80px;
     margin-bottom: 80px;
     background-color: #da1818;
-    background-image: url('/images/waves-border.jpg');
-    background-position: top center, bottom center, center left, center right;
-    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-
 }
-  
-.gallery img { 
-    width: 150px; 
-    height: 150px; 
-    object-fit: cover;
-    transition: 1s; 
-} 
+
   
 textarea {
     height: 300px;
@@ -113,9 +97,6 @@ footer {
     margin-top: 80px;
     background-color: #175E2C;
     margin-top: 80px;
-    background-image: url('/images/waves-border.jpg');
-    background-position: top center, bottom center, center left, center right;
-    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
 }
 
 .footer-submited-form {
@@ -123,21 +104,8 @@ footer {
     bottom: 0;
     width: 100%;
   }
-  
-.orange-drops {
-    max-width: 24px;
-}
 
-.white-drops-sm {
-    max-width: 20px;
-}
-
-.white-drops-md {
-    max-width: 25px;
-}
-
-
-.white-drops, .orange-drops-lg {
+.white-drops-lg {
     max-width: 30px;
 }
 
@@ -190,70 +158,24 @@ a {
     font-size: 20px;
 }
 
-.text-orange {
-    color: #f15723;
-}
 
 .info {
     background-color:#175E2C;
     height: 35px;
 }
 
-.about-img {
-    max-width: 100%;
-}
 
 .text-1 {
     background-color: #E0FFFF;
 }
 
-.sponsor-sel{
-    max-width: 120px;
-}
-
-.sponsor-pub {
-    
-    max-height: 42px;
-}
-
-/* .card-img-top {
-    max-width: 160px;
-} */
 
 .container-members, .container-events{
     margin-top: 60px;
 }
 
-.spl {
-    border-top: 40px solid #ffffff;
-    border-bottom: 40px solid #ffffff;
-    border-left: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
-}
-
-/* .card-img {
-    max-width: 150px;
-    max-height: 135px;
-} */
-
-.challenge {
-    border-top: 40px solid #171d26;
-    border-bottom: 40px solid #171d26;
-}
-
-.swa {
-    border-top: 20px solid #3f3936;
-    border-bottom: 20px solid #3f3936;
-}
-
-.motel {
-    border-top: 20px solid #ffffff;
-    border-bottom: 20px solid #fff;
-}
-
 .container {
     max-width: 1000px;
-  
 }
 
 .fas{
@@ -264,77 +186,12 @@ a {
     background-color: #EF6539;
 }
 
-.btn-details {
-    background-color: #04336f;
-}
-
-.row-title-dark, .row-button-dark, .about-us-dark, .membership-dark {
-    background-color: #b2ccdf;
-}
 
 .about-us-light {
     background-color:#da1818;
 }
 
-.about-us-light {
-    background-image: url('/images/wave-light.jpg');
-    background-position: top center, bottom center, center left, center right;
-    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-    
-}
 
-.about-us-dark {
-    background-image: url('/images/wave-dark.jpg');
-    background-position: top center, bottom center, center left, center right;
-    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-}
-
-.bronze {
-   background-color:  #cd7f32;
-}
-
-.bronze-text {
-    background-color: #E5BD96;
-}
-
-.silver {
-    background-color: #aaa9ad;
-}
-
-.silver-text {
-    background-color: #D3D3D3;
-}
-
-.gold {
-    background-color: #d4af37;
-}
-
-.gold-text {
-    background-color: #E9D699;
-}
-
-.platinium {
-    background-color: #c1beba ;
-}
-.platinium-text {
-    background-color: #f1f1ef;
-}
-
-.row-date-light {
-    background-color: #9cbdd6;
-}
-
-.row-date-dark{
-    background-color: #4282b1;
-}
-
-.row-title-active, .row-button-active, .membership-orange-light {
-    background-color: #fcd6c9;
-}
-
-.row-date-active, .membership-orange-dark {
-    background-color: #f47449;
-}
 
  .fa-envelope, .fa-map-marker-alt  {
     font-size: 20px;
@@ -345,32 +202,8 @@ a {
     height: 10px;
     border-radius: 100%;
 }
-.carousel-sponsors {
-    bottom: -50px;
-}
 
-.wave{
-    background:
-      linear-gradient(to right, sandybrown, chocolate);
-    height: 50px;
-    position: relative;
-  }
-  .wave::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-repeat: repeat;
-    height: 10px;
-    background-size: 20px 20px;
-    background-image:
-      radial-gradient(circle at 10px -5px, transparent 12px, maroon 13px);
-  }
 
-  .card {
-    max-width: 289px;
-}
 
 @media(max-width:992px) {
     nav {
@@ -390,8 +223,6 @@ a {
 }
 
 
-
-
 @media(max-width:768px) {
     .container-about {
         display: flex;
@@ -404,23 +235,9 @@ a {
         order: 2;
     }
 
-   
-
     .about-us-text {
         font-size: 17px;
     }
-
-   .about-img {
-       max-width: 80%;
-   }
-
-   .events-title {
-       font-size: 17px;
-   }
-
-   .memb-name {
-       font-size: 18px;
-   }
 
    .footer-text {
        font-size: 19px;
@@ -432,14 +249,6 @@ a {
 
    .about-us-title {
        font-size: 22px;
-   }
-
-   .events-schedule, .team-title, .sponsors-title {
-       font-size: 24px;
-   }
-
-   .events-date, .events-year {
-       font-size: 21px;
    }
     
 }
