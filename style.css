@@ -17,7 +17,6 @@ body {
     width: 190px;
 }
 
-
 .active-link {
     color: #da1818 !important;
 }
@@ -35,14 +34,6 @@ justify-content: space-around;
     font-size: 28px;
 }
 
-.mail {
-    color: #212529 !important;
-    text-decoration:none;
-}
-
-.mail:hover {
-    text-decoration: none;
-} 
 
 .icon-bar {
     position: fixed;
@@ -64,6 +55,10 @@ justify-content: space-around;
   .icon-bar a:hover {
     background-color: #000;
   }
+
+  .fa-check-circle{
+      font-size: 70px;
+  }
   
   .facebook {
     background: #3B5998;
@@ -80,7 +75,6 @@ justify-content: space-around;
     margin-left: 75px;
     font-size: 30px;
   }
-
 
 .about-us{
     margin-top: 80px;
@@ -154,24 +148,10 @@ a {
     font-size: 25px;
 }
 
-.fa-shopping-cart {
-    font-size: 20px;
-}
-
 
 .info {
     background-color:#175E2C;
     height: 35px;
-}
-
-
-.text-1 {
-    background-color: #E0FFFF;
-}
-
-
-.container-members, .container-events{
-    margin-top: 60px;
 }
 
 .container {
@@ -182,15 +162,10 @@ a {
     font-size: 28px;
 }
 
-.badge {
-    background-color: #EF6539;
-}
-
 
 .about-us-light {
     background-color:#da1818;
 }
-
 
 
  .fa-envelope, .fa-map-marker-alt  {
